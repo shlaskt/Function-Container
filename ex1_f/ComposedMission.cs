@@ -17,6 +17,7 @@ namespace Excercise_1
     public class ComposedMission : IMission
     {
         private string mission_name;
+        private string mission_type;
         public event EventHandler<double> OnCalculate; // event of when a mission is activated
         private List<calcFunc> funcsList; // list of delegates from double to double
         
@@ -29,6 +30,7 @@ namespace Excercise_1
         {
             this.mission_name = name;
             this.funcsList = new List<calcFunc>();
+            this.mission_type = "Composed";
         }
         /**
          * Add - add a function and return yourself
@@ -55,7 +57,7 @@ namespace Excercise_1
         {
             get
             {
-                return "Composed"; // mission type
+                return this.mission_type; // mission type
             }
         }
 
