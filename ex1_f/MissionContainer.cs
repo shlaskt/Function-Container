@@ -14,7 +14,8 @@ using System.Threading.Tasks;
  */
 namespace Excercise_1
 {
-  
+    public delegate double calcFunc(double x); // delegate from double to double
+
     public class FunctionsContainer
     {
         private Dictionary<string, calcFunc> dict;
@@ -36,7 +37,7 @@ namespace Excercise_1
             /**
              * getter
              * if its new func - (like the "stam" func in the example)
-             * add it to the dict like the id func (doing nothing->f(x)=x)
+             * add it to the dict like the id func (doing nothing -> f(x)=x )
              * else - return the func
              */
             get

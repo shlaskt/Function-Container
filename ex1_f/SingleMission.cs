@@ -14,12 +14,13 @@ using System.Threading.Tasks;
  */
 namespace Excercise_1
 {
-    public delegate double calcFunc(double x); // delegate from double to double
 
     public class SingleMission : IMission
     {
         private calcFunc func; // delegate
         private string mission_name;
+        private string mission_type;
+
         public event EventHandler<double> OnCalculate; // event of when a mission is activated
 
         /**
@@ -30,6 +31,7 @@ namespace Excercise_1
         {
             this.func = func;
             this.mission_name = mission_name;
+            this.mission_type = "Single";
         }
 
         /**
@@ -46,7 +48,7 @@ namespace Excercise_1
         {
             get
             {
-                return "Single"; // mission type
+                return this.mission_type ; // mission type
             }
         }
 
