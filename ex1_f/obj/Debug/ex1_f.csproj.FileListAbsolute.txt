@@ -1,0 +1,5 @@
+C:\Users\shlas\RiderProjects\ex1_f\ex1_f\bin\Debug\ex1_f.exe
+C:\Users\shlas\RiderProjects\ex1_f\ex1_f\bin\Debug\ex1_f.pdb
+C:\Users\shlas\RiderProjects\ex1_f\ex1_f\obj\Debug\ex1_f.csprojResolveAssemblyReference.cache
+C:\Users\shlas\RiderProjects\ex1_f\ex1_f\obj\Debug\ex1_f.exe
+C:\Users\shlas\RiderProjects\ex1_f\ex1_f\obj\Debug\ex1_f.pdb
