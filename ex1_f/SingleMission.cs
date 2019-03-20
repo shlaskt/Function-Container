@@ -1,5 +1,3 @@
-// Tomer Shlasky
-// ID - 204300602
 // username - shlaskt
 using System;
 using System.Collections.Generic;
